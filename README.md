@@ -1,6 +1,7 @@
 # IntelliAssist AI 🤖
 
-> **A Retrieval-Augmented Generation (RAG) Document Assistant** powered by **Google Gemini** and **LangChain FAISS**.
+> **A Retrieval-Augmented Generation (RAG) Document Assistant** powered by **Google Gemini** and **LangChain FAISS**.  
+> Developed as part of the **Launched Global** internship program.
 
 ---
 
@@ -17,6 +18,12 @@ Students, researchers, and professionals frequently struggle to quickly search, 
 2. Generates semantic embeddings to index document chunks into a vector database.
 3. Retrieves the most relevant contextual passages using similarity search.
 4. Synthesizes factual, grounded answers using Google Gemini while strictly citing source documents and page numbers.
+
+---
+
+## 🏢 Internship Acknowledgment
+
+This project was built and submitted as part of the **Launched Global** internship. It demonstrates production-ready RAG system design, document indexing, fallback-resilient LLM integration, and interactive Streamlit UI implementation.
 
 ---
 
@@ -129,6 +136,7 @@ IntelliAssist_AI/
 ├── .env.example             # Example environment variables template
 ├── .gitignore               # Ignored files (secrets, venv, vector db caches)
 ├── requirements.txt         # Project dependencies
+├── LICENSE                  # GNU AGPLv3 License
 └── README.md                # Project documentation
 ```
 
@@ -136,4 +144,4 @@ IntelliAssist_AI/
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **GNU Affero General Public License v3.0 [GNU AGPLv3]**. See the [LICENSE](LICENSE) file for details.
