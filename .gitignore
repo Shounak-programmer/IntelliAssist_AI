@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Sensitive environment variables
+.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Vector database cache
+vector_db/
+
+# Uploaded documents (keep folder empty in git)
+uploaded_documents/*
+!uploaded_documents/.gitkeep
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

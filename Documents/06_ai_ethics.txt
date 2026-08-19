@@ -1,0 +1,56 @@
+AI Ethics and Responsible AI
+
+This sample educational document was created for testing IntelliAssist
+AI.
+
+1. Bias and Fairness
+
+AI systems can reproduce or amplify patterns contained in their training
+and evaluation data. Bias may appear when some groups are
+underrepresented, when historical decisions contain unfair patterns, or
+when labels and measurements are poorly designed. Fairness evaluation
+should consider the intended use of the system and the consequences of
+errors.
+
+2. Privacy
+
+AI applications may process personal, confidential, or proprietary
+information. Developers should minimize unnecessary data collection,
+protect stored information, control access, and understand how external
+model APIs handle submitted data. Sensitive documents should not be
+uploaded to a service without appropriate authorization and safeguards.
+
+3. Transparency and Explainability
+
+Users should have enough information to understand what an AI system is
+doing and what its limitations are. For document question answering,
+displaying the retrieved source document and page or chunk can improve
+transparency because users can inspect the evidence behind an answer.
+
+4. Accountability
+
+AI systems should have clearly defined ownership and evaluation
+processes. Human oversight remains important for high-impact decisions.
+Teams should monitor failures, document system behavior, and establish
+procedures for correcting problems.
+
+5. Copyright and Data Ownership
+
+Training and application data may be subject to copyright, licensing,
+privacy, or contractual restrictions. Developers should use material
+they are authorized to process and should understand the rules
+applicable to their jurisdiction and use case.
+
+6. Responsible Use of Generative AI
+
+Generative AI should be used with appropriate safeguards. Applications
+should reduce unsupported claims, protect confidential information, test
+outputs, and provide users with a way to identify or challenge incorrect
+responses.
+
+7. Ethical Considerations for Document Assistants
+
+A document assistant should clearly communicate which documents it can
+access, avoid presenting unsupported claims as facts, and preserve
+source metadata when possible. Citation display is useful because it
+allows users to verify the answer against the underlying material.
